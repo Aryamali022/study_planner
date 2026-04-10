@@ -9,9 +9,10 @@ def create_task(task):
     new_task = {
         "id": str(uuid4()),
         "title": task.title,
+        "description": task.description,
         "completed": False
     }
-    tasks.append(new_task)
+    tasks.append(new_task) 
     return new_task
 
 def update_task(task_id):
