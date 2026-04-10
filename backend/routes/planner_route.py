@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from model.planner_route import Task
-from controller.planner_route import (
+from backend.model.planner_model import Task
+from backend.controller.planner import (
     get_all_tasks,
     create_task,
     update_task,
