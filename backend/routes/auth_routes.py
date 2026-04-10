@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from database import users_collection
+from backend.database import users_collection
 from backend.model.auth_model import User
 from backend.utils.auth_util import hash_password, verify_password, generate_token
 from backend.utils.depandency import get_current_user
