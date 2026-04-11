@@ -5,7 +5,7 @@
    /planner endpoints with JWT authentication.
    ============================================ */
 
-const API_BASE = 'http://localhost:8000';
+const API_BASE = 'https://taskly-o5eh.onrender.com/';
 
 // ============================================
 // STATE
